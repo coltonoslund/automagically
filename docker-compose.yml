@@ -1,4 +1,10 @@
 app:
-  build: .
+  image: repo2.test.cornerstonenw.com/linuxfest/app:latest
   ports:
-    - 8081:8081
+    - "8081:8081"
+  container_name: app
+static:
+  image: repo2.test.cornerstonenw.com/linuxfest/static:latest
+  ports:
+    - "80:80"
+  container_name: static
