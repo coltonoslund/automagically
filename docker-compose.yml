@@ -1,5 +1,5 @@
 app:
-  image: dockerreg.coltonoslund.cornerstonenw.com:5000/linuxfest/app:latest
+  image: dockerreg.coltonoslund.cornerstonenw.com:5000/jenkins-1:latest
   ports:
     - "8081:8081"
   container_name: app
