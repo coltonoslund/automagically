@@ -3,8 +3,3 @@ app:
   ports:
     - "8081:8081"
   container_name: app
-static:
-  image: dockerreg.coltonoslund.cornerstonenw.com:5000/jenkins-2:latest
-  ports:
-    - "80:80"
-  container_name: static
